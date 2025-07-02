@@ -1,8 +1,9 @@
-module.exports = function (eleventyConfig) {
+module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: "src",
-      output: "docs"  // GitHub Pages serves from this folder
+      output: "docs",
+      includes: "_includes"
     }
   };
 };
